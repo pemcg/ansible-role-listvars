@@ -2,6 +2,8 @@
 - name: Display all Environment Variables
   debug:
     var: environment
+  debug:
+    var: env
 - name: Display all group names
   debug:
     var: group_names
